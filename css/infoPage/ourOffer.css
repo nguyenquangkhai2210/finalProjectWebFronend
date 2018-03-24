@@ -1,0 +1,273 @@
+.layout {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+#titcha {
+    text-align: center;
+    width: 100%;
+    margin: 45px 0px;
+}
+
+.titnho {
+    text-align: center;
+    display: inline-block;
+    font-size: 2.375em;
+}
+
+.divcon1 {
+    width: 100%;
+    height: auto;
+}
+
+.pic {
+    width: 30%;
+    height: auto;
+    float: left
+}
+
+.pic img{
+    width: 100%;
+}
+
+.text {
+    box-sizing:  border-box;
+    width: 70%;
+    height: auto;
+    float: left;
+    font-size: 1em;
+    line-height: 1.65em;
+    font-weight: 400;
+    /* letter-spacing: 0px; */
+    /* margin-left: 30px; */
+    padding-left: 30px;
+}
+
+.textleft,
+.textright {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.textLeft2 {
+    width: 30%;
+    float: left;
+    font-size: 1em;
+    line-height: 1.65em;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.divcon {
+    margin: 57px 0px;
+}
+
+.divcon2 .pic {
+    width: 70%;
+    float: right
+}
+
+.tl2 {
+    width: 100%;
+    float: left;
+}
+
+.TL2pic {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.TL2pic img{
+    width: 100%;
+}
+
+.pic2 {
+    width: 30%;
+    float: left;
+}
+.pic2 img {
+    width: 100%;
+}
+
+.divcon3,
+.divcon4 {
+    width: 100%;
+    float: left
+}
+
+.d3a {
+    width: 50%;
+}
+
+.d3b {
+    width: 50%;
+    float: left;
+    padding-left: 40px;
+    box-sizing:  border-box;
+}
+.d3b img{
+    width: 100%;
+}
+
+.d3bb {
+    box-sizing:  border-box;
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+}
+
+.d3bb img {
+    width: 100%;
+}
+
+.divcon4 {
+    margin-bottom: 50px;
+}
+
+.tieude {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height:  1em;
+    margin-bottom: 16px;
+}
+
+.divcon1,
+.divcon3 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 57px;
+    box-sizing: border-box;
+}
+
+.divcon2 {
+    width: 100%;
+    height: auto;
+}
+
+.clear::before {
+    display: table;
+    content: " ";
+}
+
+.clear::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.divcon1 a {
+    float: left;
+    /* margin-left: 41px; */
+    color: #e8a735;
+}
+
+.divcon2 a {
+    color: #0c325f
+}
+
+.divcon3 a {
+    color: #ec2e85;
+}
+
+.divcon4 a {
+    float: left;
+    color: #0c7baf;
+}
+
+hr {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .08);
+    margin: 0 auto 57px;
+    clear: both;
+}
+
+@media screen and (max-width: 1180px){
+    body{
+        font-size: 85%;
+    }
+    .layout{
+        max-width: 950px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    body{
+        font-size: 80%;
+    }
+    .layout{
+        max-width: 800px;
+    }
+    .divcon{
+        margin: 40px 0;
+    }
+    hr{
+        margin: 0 auto 40px;
+    }
+    .divcon1, .divcon3{
+        padding-bottom: 40px;
+    }
+    .divcon4{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .layout{
+        max-width: 630px;
+    }
+    .pic{
+        width: 55%;
+        padding: 10px 0;
+        float: none;
+    }
+    .text{
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+    .textLeft2{
+        width: 100%;
+        float: none;
+    }
+    .TL2pic{
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+    }
+    .pic2{
+        width: 60%;
+        float: none;
+    }
+    .divcon{
+        margin: 20px 0 40px 0;
+    }
+    .textleft, .textright{
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+    }
+    .d3b{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .d3bb{
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    body{
+        font-size: 75%;
+    }
+    .layout{
+        max-width: 450px;
+    }
+}

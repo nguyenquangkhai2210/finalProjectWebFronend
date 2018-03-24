@@ -1,0 +1,107 @@
+#imgProduct{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0fa9;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imgProduct img {
+    width: 60%;
+}
+.middle > h1{
+    text-align: center;
+    margin: 60px;
+    font-size: 1.9em;
+    font-weight: 200;
+}
+
+.wrapperProduct {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.item{
+    width: 30%;
+    margin: 20px 0;
+}
+
+.item .view{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .view img{
+    display: block;
+    width: 100%;
+    transition: transform 0.7s;
+}
+
+.item .view .wrappButton {
+    opacity: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(32, 72, 158, 0.575);
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item .view .wrappButton a{
+    line-height: 60px;
+    width: 50%;
+    height: 100%;
+    color: #ffffff;
+}
+.view:hover img {
+    opacity: 0.8;
+    transform: scaleY(1.2);
+}
+
+.view:hover .wrappButton{
+    animation: moveOn 1s forwards;
+}
+
+.item .view .wrappButton a:hover{
+    background-color: #f7f7f7c9;
+    color: rgb(60, 142, 196);
+}
+
+.item .infomation{
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.item .infomation h1{
+    font-size: 1.5em;
+    line-height: 2.5em;
+    color: #626262;
+    font-weight: 100;
+}
+.item .infomation p{
+    font-size: 0.95em;
+    color: #626262;
+}
+
+@keyframes moveOn {
+    from{
+        left: -100%;
+        opacity: 0;
+    }
+    to{
+        left: 0;
+        opacity: 1;
+    }
+}

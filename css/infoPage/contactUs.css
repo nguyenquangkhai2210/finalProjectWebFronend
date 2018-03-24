@@ -1,0 +1,278 @@
+.clear::before{
+    display: table;
+    content: "";
+}
+.clear::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#titcha {
+    text-align: center;
+    width: 100%;
+    margin: 65px 0px 55px 0;
+}
+
+.titnho {
+    text-align: center;
+    display: inline-block;
+    font-size: 2.375em;
+}
+
+h4 {
+    font-size: 1.4375em;
+    margin: 0px 0px 20px 0px;
+}
+
+h6 {
+    font-size: 1.125em;
+    margin: 0px;
+}
+
+.twoTab {
+    width: 100%;
+    display: block;
+    /* margin: 0px 60px; */
+    /* float: left; */
+}
+
+.tableft,
+.tabright {
+    width: 50%;
+    float: left;
+    /* display: inline-table; */
+    box-sizing:  border-box;
+    margin-bottom: 30px;
+}
+.tableft{
+    padding-right: 20px;
+}
+
+.tl1,
+.tl2 {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    padding: 10px 0;
+}
+.tl1 img{
+    width: 100%;
+}
+.tl2 p{
+    font-size: 1em;
+}
+
+.text {
+    clear: both;
+    width: 100%;
+    /* margin: 0 0 20px; */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.tabright {
+
+    display: inline-table;
+}
+
+#map {
+    width: 100%;
+    height: 760px;
+}
+
+a {
+    text-decoration: none;
+}
+.input > form > div {
+    width: 94%;
+    box-sizing:  border-box;
+    /* padding: 0 10px; */
+}
+
+.in1 input {
+    width: 100%;
+    height: 35px;
+    border: thin #A7A7A7;
+    box-shadow: 1px 1px 3.3px 0px #0000004f;
+    padding-left:  10px;
+    /* margin: 5px; */
+}
+.in1 > div{
+    width: 50%;
+    box-sizing:  border-box;
+    padding: 0 10px;
+    position: relative;
+    display: inline-table;
+}
+
+.in1 .inputEmail{
+    float: right;
+}
+
+.in1 .inputName{
+    float: left;
+}
+.in1 > div > div{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    margin: 0;
+    width: 50px;
+    height: 37px;
+    background-color: #e52323;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    animation: warning 0.5s forwards;
+}
+
+.in2{
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.in2 input {
+    width: 100%;
+    /* clear: both; */
+    height: 35px;
+    border: thin #A7A7A7;
+    box-shadow: 1px 1px 3.3px 0px #0000004f;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.in3{
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.in3 input {
+    margin: 10px 6px;
+    width: 94%;
+    height: 100px;
+    border: thin #A7A7A7;
+    box-shadow: 1px 1px 3.3px 0px #0000004f;
+    padding-left: 10px;
+}
+
+.input {
+    margin-top: 5px
+}
+
+.sendMess {
+    /* clear: both; */
+    display: block;
+    /* padding-right: 10px; */
+}
+
+.tlTop {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+    /* float: left; */
+}
+
+.sendMess div {
+    margin: 12px 0px
+}
+
+.sendMess p{
+    font-size: 1em;
+}
+
+button {
+    width: 20%;
+    height: 35px;
+    border: 1px solid #59A3FF;
+    background-color: aliceblue;
+    color: #59A3FF;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #59A3FF;
+    color: aliceblue;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.input input:focus {
+    color: #1982c2;
+    background-color: rgba(233, 245, 252, 1) !important;
+    border-color: #d5e5ee;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    border: thin #A7A7A7;
+    box-shadow: 1px 1px 3.3px 0px #0000004f;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+@keyframes warning {
+    from{
+        margin-left: -10px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    body{
+        font-size: 90%;
+    }
+    .layout{
+        max-width: 950px;
+    }
+}
+
+
+@media screen and (max-width: 980px){
+    body{
+        font-size: 80%;
+    }
+    .layout{
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .layout{
+        max-width: 630px;
+    }
+    .tableft, .tabright{
+        float: none;
+        width: 100%;
+    }
+    .input > form > div{
+        width: 100%;
+    }
+    .in1 > div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .layout{
+        max-width: 350px;
+    }
+    .tl1{
+        width: 75%;
+        float: none;
+    }
+    .tl2{
+        width: 95%;
+        float: none;
+    }
+}
+

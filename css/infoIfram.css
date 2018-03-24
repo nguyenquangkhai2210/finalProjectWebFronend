@@ -1,0 +1,16 @@
+.headerWrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.headerWrapper img{
+    width: 120%;
+    display: block;
+}
+.headerWrapper h1 {
+    position: absolute;
+    top:45%;
+    margin-left: 5%;
+    color: #ffffff;
+    font-size: 3em;
+}
