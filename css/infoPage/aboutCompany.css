@@ -14,7 +14,6 @@ body{
 .headerWrapper {
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px;
 }
 .headerWrapper img{
     width: 100%;

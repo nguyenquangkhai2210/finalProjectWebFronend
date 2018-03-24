@@ -1,13 +1,13 @@
 var productList = [
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
-    {image : "../img/viewProduct/pro1.jpg", name:"Milk Coffe"},
+    {image : "../img/viewProduct/pro1.jpg", name:"Milk Capuchino"},
+    {image : "../img/viewProduct/pro2.jpg", name:"MatCha Coffee"},
+    {image : "../img/viewProduct/pro3.jpg", name:"Apple Capuchino"},
+    {image : "../img/viewProduct/pro4.jpg", name:"Coffee Capuchino"},
+    {image : "../img/viewProduct/pro5.jpg", name:"Black Coffee"},
+    {image : "../img/viewProduct/pro6.jpg", name:"Chocolate Capuchino"},
+    {image : "../img/viewProduct/pro7.jpg", name:"Siver Coffee"},
+    {image : "../img/viewProduct/pro8.jpg", name:"Chocolate MatCha"},
+    {image : "../img/viewProduct/pro9.jpg", name:"Pink tea"},
 ]
 
 function show(ev){
