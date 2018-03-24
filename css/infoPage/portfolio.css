@@ -1,3 +1,6 @@
+.wrapper{
+    margin-top: 30px;
+}
 .fourImage {
     width: 100%;
     display: table;
@@ -84,7 +87,6 @@ a {
 /*	body {margin: 0;}*/
 
 .big-contain {
-    position: relative;
     width: 100%;
     position: fixed;
     height: 100vh;
